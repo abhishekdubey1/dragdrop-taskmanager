@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  width: 95%;
+  margin: 15px auto;
+}
+
+.container-drag {
+  text-align: center;
+}
+
+.todo {
+  position: absolute;
+  width: 150px;
+  height: max-content;
+  min-height: 90vh;
+  left: 0;
+  top: 10;
+  background-color: #fbf2ed;
+  border-style: solid;
+  border-width: 2px;
+  color: #45597e;
+}
+
+.header {
+  display: inline-block;
+  color: #45597e;
+  font-family: sans-serif;
+  margin: 0;
+  width: 100%;
+}
+
+.task-header {
+  display: inline-block;
+  background-color: #dbe2f4;
+  color: #45597e;
+  font-family: sans-serif;
+  width: 100%;
+  height: 30px;
+  padding-top: 15px;
+  font-weight: bold;
+  border-bottom-style: solid;
+  border-width: 2px;
+}
+
+.droppable {
+  position: absolute;
+  width: 150px;
+  height: max-content;
+  min-height: 90vh;
+  right: 0;
+  background-color: #fbf2ed;
+  border-style: solid;
+  border-width: 2px;
+  color: #45597e;
+}
+
+.draggable {
+  width: 100px;
+  height: 80px;
+  position: relative;
+  margin: 15px auto;
+  padding-top: 25px;
+  border-style: solid;
+  border-width: 2px;
+  color: #45597e;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 50px;
+  border: 1px solid dodgerblue;
+  margin: 5px 0;
+  width: 10vw;
+  min-width: 200px;
+  padding: 5px;
+}
+input:focus {
+  outline: none;
+  border: 1px solid rgba(30, 143, 255, 0.341);
+}
+
+.close {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
